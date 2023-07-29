@@ -2,9 +2,9 @@
 
 import styles from './page.module.css'
 import { useEffect } from 'react';
-import { ChartLine, LineChart, LineData } from 'chartino';
+import { ChartLine, LineChart } from 'chartino';
 
-const dataOne: LineData = {
+const dataOne = {
   1672502400000: 5, // September 1, 2023
   1672588800000: 10, // September 2, 2023
   1672675200000: 13, // September 3, 2023
@@ -12,7 +12,7 @@ const dataOne: LineData = {
   1672848000000: 4, // September 5, 2023
 };
 
-const dataTwo: LineData = {
+const dataTwo = {
   1672502400000: -15, // September 1, 2023
   1672588800000: 8, // September 2, 2023
   1672675200000: 6, // September 3, 2023
